@@ -26,7 +26,7 @@ wget http://514f211588de67e4fdcf-437b8dd50f60b69cf0974b538e50585b.r63.cf1.rackcd
 tar -xf InstallNDISDK_v4_Linux.tar.gz; bash InstallNDISDK_v4_Linux.sh
 
 # move ./bin and ./include folders from NDI SDK
-mv ~/ffmpeg_sources/NDI\ SDK\ for\ Linux/{bin,include} ~/ffmpeg_sources/ndi/
+mv ~/ffmpeg_sources/NDI\ SDK\ for\ Linux/{bin,include,lib} ~/ffmpeg_sources/ndi/
 
 # download FFMPEG version that includes NDI support
 cd ~/ffmpeg_sources
