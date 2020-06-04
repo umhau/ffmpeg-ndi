@@ -31,7 +31,7 @@ mv ~/ffmpeg_sources/NDI\ SDK\ for\ Linux/{bin,include,lib} ~/ffmpeg_sources/ndi/
 # download FFMPEG version that includes NDI support
 cd ~/ffmpeg_sources
 wget -O ffmpeg-3.4.6.tar.xz http://ffmpeg.org/releases/ffmpeg-3.4.6.tar.xz
-tar xjvf ffmpeg-3.4.6.tar.xz
+tar xf ffmpeg-3.4.6.tar.xz
 mv ffmpeg-3.4.6 ffmpeg; cd ffmpeg
 
 # configure ffmpeg
