@@ -23,7 +23,7 @@ sudo apt-get install xz-utils                                # to extract tar.xz
 wget http://514f211588de67e4fdcf-437b8dd50f60b69cf0974b538e50585b.r63.cf1.rackcdn.com/Utilities/SDK/NDI_SDK_Linux_v2/InstallNDISDK_v4_Linux.tar.gz
 
 # extract NDI SDK
-tar -xvzf InstallNDISDK_v4_Linux.tar.gz; bash InstallNDISDK_v4_Linux.sh
+tar -xf InstallNDISDK_v4_Linux.tar.gz; bash InstallNDISDK_v4_Linux.sh
 
 # move ./bin and ./include folders from NDI SDK
 mv ~/ffmpeg_sources/NDI\ SDK\ for\ Linux/{bin,include} ~/ffmpeg_sources/ndi/
