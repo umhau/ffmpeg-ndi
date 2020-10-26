@@ -5,8 +5,8 @@ Experimenting with several OSes.
 - install debian / ubuntu
 - run install.sh
 
-[ ] package compiled amd64 ffmpeg binaries into repo, download to each new reciever
-[ ] script to watch for NDI streams from specific source
+- [ ] package compiled amd64 ffmpeg binaries into repo, download to each new reciever
+- [ ] script to watch for NDI streams from specific source
 - how to specify the NDI source to watch at?
     - specify file location on network?
     - local website with html form input?
